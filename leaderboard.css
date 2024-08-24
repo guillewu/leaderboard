@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: normal;
   margin: 3em 0;
@@ -13,34 +13,38 @@ body {
 
 .outer {
   margin: 0 auto;
-  max-width: 480px;
 }
 
 .logo {
-  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGcgaWQ9Imljb21vb24taWdub3JlIj4KCTxsaW5lIHN0cm9rZS13aWR0aD0iMSIgeDE9IiIgeTE9IiIgeDI9IiIgeTI9IiIgc3Ryb2tlPSIjNDQ5RkRCIiBvcGFjaXR5PSIiPjwvbGluZT4KPC9nPgoJPHBhdGggZD0iTTI2LjUyIDI0LjcwNWwtNi41Mi0xMS4yOTN2LTcuODc3aDAuNzVjMC42OSAwIDEuMjUtMC41NiAxLjI1LTEuMjVzLTAuNTYtMS4yNS0xLjI1LTEuMjVoLTkuNWMtMC42OSAwLTEuMjUgMC41Ni0xLjI1IDEuMjVzMC41NiAxLjI1IDEuMjUgMS4yNWgwLjc1djcuODc3bC02LjUyIDExLjI5M2MtMS4zNzUgMi4zODEtMC4yNSA0LjMzIDIuNSA0LjMzaDE2LjA0MGMyLjc1IDAgMy44NzUtMS45NDkgMi41LTQuMzN6TTE0LjUgNS41MzVoM2wtMC4wMDIgOC41NDMgMS45OTYgMy40NTdoLTYuOTljMS4xMjMtMS45NDYgMS45OTYtMy40NTkgMS45OTYtMy40NTl2LTguNTQxek0yNC4wMjAgMjYuNTM1aC0xNi4wNDBjLTAuMjU5IDAtMC40NDMtMC4wMzAtMC41NjEtMC4wNjMgMC4wMzEtMC4xMTkgMC4wOTctMC4yOTQgMC4yMjctMC41MTggMCAwIDEuNzA2LTIuOTU3IDMuNDE2LTUuOTJsOS44NzYtMCAzLjQxOCA1LjkyYzAuMTI5IDAuMjI0IDAuMTk1IDAuMzk5IDAuMjI3IDAuNTE4LTAuMTE4IDAuMDMyLTAuMzAzIDAuMDYzLTAuNTYyIDAuMDYzeiIgZmlsbD0iIzAwMDAwMCI+PC9wYXRoPgo8L3N2Zz4K');
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0ZWQgYnkgSWNvTW9vbi5pbyAtLT4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDMyIDMyIj4KPGcgaWQ9Imljb21vb24taWdub3JlIj4KCTxsaW5lIHN0cm9rZS13aWR0aD0iMSIgeDE9IiIgeTE9IiIgeDI9IiIgeTI9IiIgc3Ryb2tlPSIjNDQ5RkRCIiBvcGFjaXR5PSIiPjwvbGluZT4KPC9nPgoJPHBhdGggZD0iTTI2LjUyIDI0LjcwNWwtNi41Mi0xMS4yOTN2LTcuODc3aDAuNzVjMC42OSAwIDEuMjUtMC41NiAxLjI1LTEuMjVzLTAuNTYtMS4yNS0xLjI1LTEuMjVoLTkuNWMtMC42OSAwLTEuMjUgMC41Ni0xLjI1IDEuMjVzMC41NiAxLjI1IDEuMjUgMS4yNWgwLjc1djcuODc3bC02LjUyIDExLjI5M2MtMS4zNzUgMi4zODEtMC4yNSA0LjMzIDIuNSA0LjMzaDE2LjA0MGMyLjc1IDAgMy44NzUtMS45NDkgMi41LTQuMzN6TTE0LjUgNS41MzVoM2wtMC4wMDIgOC41NDMgMS45OTYgMy40NTdoLTYuOTljMS4xMjMtMS45NDYgMS45OTYtMy40NTkgMS45OTYtMy40NTl2LTguNTQxek0yNC4wMjAgMjYuNTM1aC0xNi4wNDBjLTAuMjU5IDAtMC40NDMtMC4wMzAtMC41NjEtMC4wNjMgMC4wMzEtMC4xMTkgMC4wOTctMC4yOTQgMC4yMjctMC41MTggMCAwIDEuNzA2LTIuOTU3IDMuNDE2LTUuOTJsOS44NzYtMCAzLjQxOCA1LjkyYzAuMTI5IDAuMjI0IDAuMTk1IDAuMzk5IDAuMjI3IDAuNTE4LTAuMTE4IDAuMDMyLTAuMzAzIDAuMDYzLTAuNTYyIDAuMDYzeiIgZmlsbD0iIzAwMDAwMCI+PC9wYXRoPgo8L3N2Zz4K");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   height: 1.5em;
-  margin: 0 auto .75em;
+  margin: 0 auto 0.75em;
   width: 1.5em;
 }
 
 .title {
   font-size: 1.5em;
   font-weight: 600;
-  letter-spacing: .3em;
-  margin: 0 0 .25em;
+  letter-spacing: 0.3em;
+  margin: 0 0 0.25em;
   text-align: center;
-  text-indent: .3em;
+  text-indent: 0.3em;
   text-transform: uppercase;
 }
 
 .subtitle {
   color: #999;
-  font-size: .875em;
+  font-size: 0.875em;
   margin-bottom: 2em;
   text-align: center;
+}
+
+.board-container {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .leaderboard {
@@ -54,7 +58,7 @@ body {
 .player {
   border-bottom: 1px solid #f1f1f1;
   cursor: pointer;
-  padding: .5em 0;
+  padding: 0.5em 0;
   position: relative;
   overflow: hidden;
   transition: background 300ms ease-out;
@@ -107,6 +111,8 @@ body {
 
 .details {
   overflow: hidden;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .details .name {
@@ -125,7 +131,7 @@ body {
   color: #eb5f3a;
   cursor: pointer;
   float: right;
-  font-family: 'Source Sans Pro' ,'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   line-height: 1;
   margin: 0;
@@ -140,7 +146,7 @@ body {
 }
 
 .inc:active {
-  box-shadow: rgba(0,0,0,.3) 0 1px 3px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px 0 inset;
 }
 
 .message {
@@ -150,7 +156,8 @@ body {
 }
 
 @media (max-width: 500px) {
-  .details, .message {
+  .details,
+  .message {
     display: block;
     position: fixed;
     bottom: 0;
